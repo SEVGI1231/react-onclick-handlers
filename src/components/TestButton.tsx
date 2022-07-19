@@ -1,5 +1,8 @@
 function TestButton(): JSX.Element {
-  return <button>Make me do something when I'm clicked...</button>;
+  function handleClick(){
+    console.log("This is my button!!")
+  }
+  return <button onClick={handleClick}>My handler is a functiion decleration </button>;
 }
 
 export default TestButton;

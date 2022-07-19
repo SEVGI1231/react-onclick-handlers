@@ -6,6 +6,7 @@ import ButtonWithClickExampleD from "./components/ButtonWithClickExampleD";
 import ButtonWithClickExampleE from "./components/ButtonWithClickExampleE";
 import ButtonWithClickExampleF from "./components/ButtonWithClickExampleF";
 import TestButton from "./components/TestButton";
+import TestButton2 from "./components/TestButton2";
 
 function App(): JSX.Element {
   return (
@@ -25,6 +26,8 @@ function App(): JSX.Element {
       <ButtonWithClickExampleF />
       <hr />
       <TestButton />
+      <hr />
+      <TestButton2 />
     </>
   );
 }
